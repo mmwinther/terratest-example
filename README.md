@@ -10,7 +10,9 @@ Golang - `brew install go`
 
 Kubectl - `brew install kubectl`
 
-## Running a test
+## Running the Kubernetes Example test
+
+Before starting, make sure your kubectl config is pointing to a cluster you wish to use for testing. The test will create a deployment in a `stratus` namespace so the cluster must have this available.
 
 `cd test`
 
